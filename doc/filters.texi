@@ -5500,10 +5500,13 @@ expressed in seconds, NAN if undefined
 the PTS of the previously filtered video frame, NAN if undefined
 
 @item prev_selected_pts
-the PTS of the last previously filtered video frame, NAN if undefined
+the PTS of the last selected video frame, NAN if undefined
+
+@item prev_t
+the PTS of the previously filtered video frame, NAN if undefined
 
 @item prev_selected_t
-the PTS of the last previously selected video frame, NAN if undefined
+the PTS of the last selected video frame, NAN if undefined
 
 @item start_pts
 the PTS of the first video frame in the video, NAN if undefined
